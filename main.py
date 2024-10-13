@@ -20,7 +20,7 @@ from PIL import Image
 import torchvision.transforms as transforms
 
 
-os.environ["OPENAI_API_KEY"] = ("*****")
+# os.environ["OPENAI_API_KEY"] = ("*****")
 
 app = FastAPI()
 
@@ -31,8 +31,8 @@ UPLOAD_FOLDER = "uploaded_images/"
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)  # Ensure the folder exists
 
 
-# model = OllamaLLM(model="llama3.1")
-model = ChatOpenAI(model="gpt-3.5-turbo")
+model = OllamaLLM(model="llama3.1")
+# model = ChatOpenAI(model="gpt-3.5-turbo")
 
 
 image_model = CNNModel()
