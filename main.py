@@ -79,13 +79,6 @@ Relevant Medical Documents (Top 3):
    - **Potential Symptoms**: Likely symptoms related to the condition, explicitly mentioned in the report or inferred from the retrieved data.
    - **Recommended Next Steps**: Suggestions for further tests, treatments, or follow-up actions based on the diagnosis.
    - **Relevant Medications**: If applicable, list general medication examples related to the diagnosis. If unsure, refrain from providing medications.
-
-### Example Response:
-- **Diagnosis**: Based on the symptoms of fever, cough, and shortness of breath, the most likely diagnosis is pneumonia, as mentioned in Option 1. However, bronchitis and asthma should also be considered if further symptoms arise.
-- **Key Insights**: The patient's symptoms align closely with bacterial pneumonia, typically treated with antibiotics. Asthma may also cause shortness of breath, but this is less likely given the absence of wheezing.
-- **Potential Symptoms**: Fever, cough with phlegm, and difficulty breathing are commonly associated with pneumonia. Asthma might present with wheezing, which is not reported in the user input.
-- **Recommended Next Steps**: It would be advisable for the patient to undergo a chest X-ray and a sputum culture to confirm the diagnosis of pneumonia. If asthma or bronchitis is suspected, spirometry tests could be useful.
-- **Relevant Medications**: Amoxicillin or macrolides (such as azithromycin) are often prescribed for bacterial pneumonia. However, a medical consultation is recommended to confirm the diagnosis before prescribing.
 """
 
 IMAGE_DIAGNOSIS_TEMPLATE = """

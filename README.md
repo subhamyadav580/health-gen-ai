@@ -1,4 +1,4 @@
-# Health Gen AI ChatBot Service
+# Health Gen AI ChatBot
 
 This FastAPI service provides AI-based health diagnostics through both text and image inputs.
 
