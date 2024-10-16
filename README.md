@@ -1,43 +1,22 @@
-# Health Gen AI ChatBot
+# Medical Synthetic Data Generator using RAG
 
-This FastAPI service provides AI-based health diagnostics through both text and image inputs.
-
-## Features
-
-- Disease diagnosis based on patient-provided text
-- Disease diagnosis based on patient-provided images
 
 ## Prerequisites
 
-- Python 3.7+
+* Python 3.10
+* Ollama
 
-## Setup
+## Usage steps
 
-### 1. Clone the repository
+### Step: 1
 
+Clone the project on your machine
 ```bash
-git clone https://github.com/subhamyadav580/health-gen-ai.git
-cd health-gen-ai
+git clone https://github.com/subhamyadav580/gen-ai-synthetic-data.git
 ```
 
-### 2. Set up a virtual environment
-```bash
-python3 -m venv myvenv
-source myvenv/bin/activate
+### Step: 2 Now run the jupyter notebook
+Now trigger the whole notebook and at the final line your can change the user input, as below given example
 ```
-
-### 3. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Start the service
-```bash
-uvicorn main:app --reload --port 8000
-```
-
-### 5. Test the service
-```bash
-http://127.0.0.1:8000/
+response = rag_chain.invoke("feverish with body ache")
 ```
